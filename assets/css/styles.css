@@ -101,15 +101,14 @@ bottom: 30%;
 .card-container {
     margin-top: 50px;
     transition-property: all;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     transition-timing-function: ease-in;
 }
 
 .hover-info-wrapper{
    display: none;
-
    transition-property: all;
-   transition-duration: 1s;
+   transition-duration: 0.5s;
    transition-timing-function: ease-in;
    
     
@@ -121,12 +120,16 @@ bottom: 30%;
   
 }
 
+.user-name{
+    text-decoration: underline;
+
+}
+
 .card-container:hover .hover-info-wrapper{
     
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 
     font-weight: 600;
-
 }
