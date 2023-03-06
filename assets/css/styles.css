@@ -87,3 +87,8 @@ justify-content: space-around;
 left: 70%;
 bottom: 30%;
 }
+
+.card-container:nth-child(2n){
+    background: red;
+    background: linear-gradient(50deg, rgb(233, 102, 102), rgb(243, 32, 197));
+}
