@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.card-container{
+
+    position: relative;
+
+    padding: 40px;
+
+    width: 400px;
+    height: 200px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+
+    background-color: rgb(114, 114, 253);
+    background: linear-gradient(50deg, rgb(105, 207, 238) ,rgb(13, 133, 202));
+    border-radius: 5px;
+
+    color: white;
+}
+
+.info-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.bookmark-icon{
+    fill: white;
+    width: 40px;
+    height: 40px;
+}
+
+.number{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.card-name{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.percent{
+    font-weight: 500;
+}
+
+.card-container::after, .card-container::before{
+    content: '';
+    display: inline-block;
+
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.562);
+    left: 50%;
+
+}
+
+.card-container::after{
+    left: 50%;
+    top: 40%;
+
+}
+
+.card-container::before{
+left: 70%;
+bottom: 30%;
+}
