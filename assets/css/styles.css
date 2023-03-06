@@ -37,6 +37,8 @@ section{
     color: white;
 
     overflow: hidden;
+
+    flex-wrap: wrap;
 }
 
 .info-wrapper{
