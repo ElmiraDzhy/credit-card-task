@@ -97,3 +97,7 @@ bottom: 30%;
     background: red;
     background: linear-gradient(50deg, rgb(233, 102, 102), rgb(243, 32, 197));
 }
+
+.card-container + .card-container{
+    margin-top: 50px;
+}
