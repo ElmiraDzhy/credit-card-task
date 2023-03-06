@@ -11,6 +11,7 @@ section{
     justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
    
+    flex-wrap: wrap;
 
 }
 
@@ -38,7 +39,6 @@ section{
 
     overflow: hidden;
 
-    flex-wrap: wrap;
 }
 
 .info-wrapper{
